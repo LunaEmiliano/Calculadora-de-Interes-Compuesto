@@ -202,25 +202,29 @@ button[type="submit"]:active {
     width: 95vw;
     max-width: none;
     margin: 20px auto;
+    min-height: 92vh; /* Aumenta el alto visible */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   form label {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   input, select {
-    font-size: 20px;
-    padding: 14px;
+    font-size: 22px;
+    padding: 16px;
   }
 
   button[type="submit"], 
   button[type="reset"] {
-    font-size: 20px;
-    padding: 16px;
+    font-size: 22px;
+    padding: 18px;
   }
 
   .checkbox-wrapper {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .checkbox-wrapper input[type="checkbox"] {
@@ -233,7 +237,8 @@ button[type="submit"]:active {
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 30px;
+      margin-bottom: 20px
   }
 
   #resultados h2 {
