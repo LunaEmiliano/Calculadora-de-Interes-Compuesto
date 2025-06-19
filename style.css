@@ -197,6 +197,7 @@ button[type="submit"]:active {
     .container {
         padding: 20px;
         width: 95vw;
+        max-width: none;
         margin: 5vh auto;
     }
 
