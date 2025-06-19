@@ -11,22 +11,25 @@ body {
     color: #333;
     line-height: 1.6;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-height: 100vh;
 }
 
 /* 2- Container principal */
 .container {
-    max-width: 600px;
-    max-height: 95vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 30px;
-    background-color: white;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  animation: fadeInUp 0.8s ease-out both;
 }
+
 
 /* 3- Estilizar forms e inputs */
 form label {
@@ -204,8 +207,7 @@ button[type="submit"]:active {
         padding: 20px;
         width: 95vw;
         max-width: none;
-        min-height: 90vh;
-        margin: 5vh auto;
+        margin: 20px auto;
     }
 
     input, select {
