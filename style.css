@@ -190,16 +190,35 @@ button[type="submit"]:active {
 }
 
 @media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
     .container {
         padding: 20px;
     }
 
-    input, select, button[type="submit"], button[type="reset"] {
+    input, select {
         font-size: 25px;
-        padding: 12px;
+        padding: 18px; /* Aumentado para que se vea proporcionado */
+    }
+
+    button[type="submit"], 
+    button[type="reset"] {
+        font-size: 25px;
+        padding: 18px; /* Aumentado para que se vea proporcionado */
     }
 
     .checkbox-wrapper {
         font-size: 25px;
+    }
+    
+    .checkbox-wrapper input[type="checkbox"] {
+        width: 30px; /* Aumentado para que sea proporcionado al texto */
+        height: 30px;
+    }
+    
+    form label {
+        font-size: 25px; /* Los labels también necesitan ser más grandes */
     }
 }
