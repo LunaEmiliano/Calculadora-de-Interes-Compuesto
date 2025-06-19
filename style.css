@@ -188,3 +188,18 @@ canvas {
 button[type="submit"]:active {
     transform: scale(0.98);
 }
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    input, select, button[type="submit"], button[type="reset"] {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .checkbox-wrapper {
+        font-size: 14px;
+    }
+}
