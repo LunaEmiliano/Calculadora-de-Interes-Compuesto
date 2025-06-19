@@ -179,7 +179,7 @@ canvas {
 }
 
 /* Cuando se muestran */
-#ressultados {
+#resultados {
     opacity: 1;
     max-height: 1000px;
     transition: all 0.5s ease;
@@ -195,11 +195,11 @@ button[type="submit"]:active {
     }
 
     input, select, button[type="submit"], button[type="reset"] {
-        font-size: 14px;
-        padding: 8px;
+        font-size: 16px;
+        padding: 12px;
     }
 
     .checkbox-wrapper {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
