@@ -192,6 +192,8 @@ button[type="submit"]:active {
 @media (max-width: 600px) {
     body {
         padding: 10px;
+        box-shadow: none;
+        min-height: 100vh;
     }
     
     .container {
