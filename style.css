@@ -8,7 +8,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(to right, #00abff, #a129ff);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     color: #333;
     line-height: 1.6;
     padding: 20px;
@@ -17,11 +16,16 @@ body {
 /* 2- Container principal */
 .container {
     max-width: 600px;
+    max-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0 auto;
     padding: 30px;
     background-color: white;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
 }
 
 /* 3- Estilizar forms e inputs */
