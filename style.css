@@ -211,8 +211,9 @@ button[type="submit"]:active {
 
   .container {
     width: 95vw;
+    height: 95vh;
     max-width: none;
-    min-height: 95vh;
+    /*min-height: 95vh*/
     padding: 24px;
     display: flex;
     flex-direction: column;
