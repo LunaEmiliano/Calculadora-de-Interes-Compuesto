@@ -189,7 +189,7 @@ button[type="submit"]:active {
     transform: scale(0.98);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .container {
         padding: 20px;
     }
