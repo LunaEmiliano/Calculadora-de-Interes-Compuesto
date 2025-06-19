@@ -197,40 +197,47 @@ button[type="submit"]:active {
 }
 
 @media (max-width: 600px) {
-    body {
-        padding: 10px;
-        box-shadow: none;
-        min-height: 100vh;
-    }
-    
-    .container {
-        padding: 20px;
-        width: 95vw;
-        max-width: none;
-        margin: 20px auto;
-    }
+  .container {
+    padding: 20px;
+    width: 95vw;
+    max-width: none;
+    margin: 20px auto;
+  }
 
-    input, select {
-        font-size: 25px;
-        padding: 18px; /* Aumentado para que se vea proporcionado */
-    }
+  form label {
+    font-size: 20px;
+  }
 
-    button[type="submit"], 
-    button[type="reset"] {
-        font-size: 25px;
-        padding: 18px; /* Aumentado para que se vea proporcionado */
-    }
+  input, select {
+    font-size: 20px;
+    padding: 14px;
+  }
 
-    .checkbox-wrapper {
-        font-size: 25px;
-    }
-    
-    .checkbox-wrapper input[type="checkbox"] {
-        width: 30px; /* Aumentado para que sea proporcionado al texto */
-        height: 30px;
-    }
-    
-    form label {
-        font-size: 25px; /* Los labels también necesitan ser más grandes */
-    }
+  button[type="submit"], 
+  button[type="reset"] {
+    font-size: 20px;
+    padding: 16px;
+  }
+
+  .checkbox-wrapper {
+    font-size: 20px;
+  }
+
+  .checkbox-wrapper input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+  }
+
+  #resultados li {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  #resultados h2 {
+    font-size: 24px;
+  }
 }
+
