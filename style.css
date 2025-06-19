@@ -197,15 +197,32 @@ button[type="submit"]:active {
 }
 
 @media (max-width: 600px) {
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .container {
-    padding: 20px;
     width: 95vw;
     max-width: none;
-    margin: 20px auto;
-    min-height: 92vh; /* Aumenta el alto visible */
+    min-height: 95vh;
+    padding: 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 24px;
   }
 
   form label {
@@ -228,21 +245,16 @@ button[type="submit"]:active {
   }
 
   .checkbox-wrapper input[type="checkbox"] {
-    width: 24px;
-    height: 24px;
+    width: 26px;
+    height: 26px;
   }
 
   #resultados li {
-    font-size: 18px;
-  }
-
-  h1 {
-    font-size: 30px;
-      margin-bottom: 20px
+    font-size: 20px;
   }
 
   #resultados h2 {
-    font-size: 24px;
+    font-size: 26px;
   }
 }
 
