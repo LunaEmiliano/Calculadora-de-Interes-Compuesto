@@ -21,13 +21,12 @@ body {
 /* 2- Container principal */
 .container {
   max-width: 600px;
-  width: 100%;
+  width: 95%;
   margin: 40px auto;
   padding: 30px;
   background-color: white;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
-  animation: fadeInUp 0.8s ease-out both;
 }
 
 
