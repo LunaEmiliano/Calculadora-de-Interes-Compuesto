@@ -198,6 +198,7 @@ button[type="submit"]:active {
         padding: 20px;
         width: 95vw;
         max-width: none;
+        min-height: 90vh;
         margin: 5vh auto;
     }
 
